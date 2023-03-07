@@ -1,0 +1,13 @@
+# Set to `true` to show the plugin logs
+debug: false
+
+# List of groups to verify that the player has
+groupsToFind:
+  - player
+
+# Default group that will be assigned to the player in case of not having any group
+defaultGroup: player
+
+# If 'replace', it will override any group assigned, useful when you are using LuckPerms tracks
+# If 'append', it will append to the group list of the user, useful if you are supporting multiple groups
+strategy: 'replace'

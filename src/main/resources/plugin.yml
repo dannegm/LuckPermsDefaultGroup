@@ -1,0 +1,5 @@
+name: LuckPermsDefaultGroup
+version: 1.2.6
+main: im.dnn.luckperms.LuckPermsDefaultGroup.LuckPermsDefaultGroup
+api-version: 1.19
+depend: [LuckPerms]
