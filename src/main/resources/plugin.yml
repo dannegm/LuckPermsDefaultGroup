@@ -1,5 +1,15 @@
 name: LuckPermsDefaultGroup
-version: 1.2.6
+version: 1.2.8
 main: im.dnn.luckperms.LuckPermsDefaultGroup.LuckPermsDefaultGroup
 api-version: 1.19
 depend: [LuckPerms]
+
+commands:
+  lpdg:
+    description: Luck Perms Default Group base command
+    usage: /lpdg help
+
+permissions:
+  lpdg.admin.reload:
+    description: Allows to execute the reload command
+    default: false

@@ -1,5 +1,7 @@
 package im.dnn.luckperms.LuckPermsDefaultGroup;
 
+import im.dnn.luckperms.LuckPermsDefaultGroup.Commands.AdminCommands;
+import im.dnn.luckperms.LuckPermsDefaultGroup.Constants.Commands;
 import im.dnn.luckperms.LuckPermsDefaultGroup.Listeners.UserListener;
 import im.dnn.luckperms.LuckPermsDefaultGroup.Managers.UserManager;
 import im.dnn.luckperms.LuckPermsDefaultGroup.Utils.Logger;
@@ -29,5 +31,7 @@ public class LuckPermsDefaultGroup extends JavaPlugin {
             Logger.warning("It is required to have " + ChatColor.YELLOW + "LuckPerms" + ChatColor.RESET + " installed in order to use this plugin");
         }
 
+        AdminCommands adminCommands = new AdminCommands();
+        getCommand(Commands.BASE).setExecutor(adminCommands);
     }
 }

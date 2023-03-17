@@ -9,6 +9,7 @@ import java.util.List;
 
 public class Settings {
     static Settings singleton = null;
+    static JavaPlugin plugin = null;
 
     private static FileConfiguration config;
 
@@ -17,6 +18,8 @@ public class Settings {
         singleton = new Settings();
 
         Settings.config = plugin.getConfig();
+
+        Settings.plugin = plugin;
 
         setupDefaults();
         plugin.saveConfig();
@@ -32,6 +35,10 @@ public class Settings {
         List<String> groupsToFind = new ArrayList<>();
         groupsToFind.add("player");
         Settings.config.addDefault(Keys.GROUPS_TO_FIND, groupsToFind);
+    }
+
+    public static void reloadConfig () {
+        Settings.plugin.reloadConfig();
     }
 
     public static boolean isDebug () {
