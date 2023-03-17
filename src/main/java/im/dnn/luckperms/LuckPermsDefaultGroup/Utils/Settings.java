@@ -38,7 +38,7 @@ public class Settings {
     }
 
     public static void reloadConfig () {
-        Settings.plugin.reloadConfig();
+        Settings.plugin.reloadConfig();ﬁ
     }
 
     public static boolean isDebug () {

@@ -2,6 +2,7 @@ package im.dnn.luckperms.LuckPermsDefaultGroup.Commands;
 
 import im.dnn.luckperms.LuckPermsDefaultGroup.Constants.Commands;
 import im.dnn.luckperms.LuckPermsDefaultGroup.Constants.Permissions;
+import im.dnn.luckperms.LuckPermsDefaultGroup.Utils.Logger;
 import im.dnn.luckperms.LuckPermsDefaultGroup.Utils.Settings;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -43,6 +44,8 @@ public class AdminCommands implements CommandExecutor {
         }
 
         Settings.reloadConfig();
+        Logger.info("Config reloaded!");
+        sender.sendMessage("[LuckPerms DefaultGroup] Config reloaded!");
 
         return true;
     }

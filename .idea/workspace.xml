@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbdb634-8069-4bcb-b124-3e563f3ea966" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/Constants/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/Constants/Commons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/LuckPermsDefaultGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/LuckPermsDefaultGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/Commands/AdminCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/Commands/AdminCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/Utils/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/dnn/luckperms/LuckPermsDefaultGroup/Utils/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
